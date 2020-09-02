@@ -1,14 +1,13 @@
 # goldy
 
-[![Build Status][travis badge]][travis]
-[![LFE Versions][lfe badge]][lfe]
-[![Erlang Versions][erlang badge]][versions]
-[![Tag][github tag badge]][github tag]
-[![Downloads][hex downloads]][hex package]
+[![Build Status][travis-badge]][travis]
+[![LFE Versions][lfe-badge]][lfe]
+[![Erlang Versions][erlang-badge]][versions]
+[![Tag][github-tag-badge]][github-tag]
 
 [![Project Logo][logo]][logo-large]
 
-*An LFE application*
+*A gopher client, shell, and server implementation in LFE*
 
 ##### Table of Contents
 
@@ -17,6 +16,7 @@
 * [Start the Project REPL](#start-the-repl-)
 * [Tests](#tests-)
 * [Usage](#usage-)
+* [Gopher Resources](#gopher-resources-)
 * [License](#license-)
 
 ## About [&#x219F;](#table-of-contents)
@@ -45,9 +45,21 @@ $ rebar3 lfe test
 
 TBD
 
+## Gopher Resources [&#x219F;](#table-of-contents)
+
+* [Common Lisp library](https://github.com/knusbaum/cl-gopher)
+* [RFC 1436 - The Internet Gopher Protocol](https://tools.ietf.org/rfc/rfc1436.txt)
+* [Overbite Firefox Extension - Reenable Gopher Support](https://addons.mozilla.org/en-US/firefox/addon/overbitewx/)
+* [Generating static Gopher content](https://jfm.carcosa.net/blog/computing/hugo-gopher/)
+* `curl` - built-in support for `gopher://`
+* Gopher servers
+  * [gopher://gopher.floodgap.com:70/](gopher://gopher.floodgap.com:70/)
+  * [gopher://freeshell.org:70/](gopher://freeshell.org:70/)
+  * [gopher://gopher.quux.org:70/](gopher://gopher.quux.org:70/)
+
 ## License [&#x219F;](#table-of-contents)
 
-Apache License, Version 2.0
+MIT License
 
 Copyright © 2020, Duncan McGreggor <oubiwann@gmail.com>.
 
@@ -58,16 +70,13 @@ Copyright © 2020, Duncan McGreggor <oubiwann@gmail.com>.
 [github]: https://github.com/ORG/goldy
 [gitlab]: https://gitlab.com/ORG/goldy
 [travis]: https://travis-ci.org/ORG/goldy
-[travis badge]: https://img.shields.io/travis/ORG/goldy.svg
+[travis-badge]: https://img.shields.io/travis/ORG/goldy.svg
 [gh-actions-badge]: https://github.com/ORG/goldy/workflows/Go/badge.svg
 [gh-actions]: https://github.com/ORG/goldy/actions
 [lfe]: https://github.com/rvirding/lfe
-[lfe badge]: https://img.shields.io/badge/lfe-1.3.0-blue.svg
-[erlang badge]: https://img.shields.io/badge/erlang-19%20to%2023-blue.svg
+[lfe-badge]: https://img.shields.io/badge/lfe-1.3.0-blue.svg
+[erlang-badge]: https://img.shields.io/badge/erlang-19%20to%2023-blue.svg
 [version]: https://github.com/ORG/goldy/blob/master/.travis.yml
-[github tags]: https://github.com/ORG/goldy/tags
-[github tags badge]: https://img.shields.io/github/tag/ORG/goldy.svg
-[github downloads]: https://img.shields.io/github/downloads/ORG/goldy/total.svg
-[hex badge]: https://img.shields.io/hexpm/v/goldy.svg?maxAge=2592000
-[hex package]: https://hex.pm/packages/goldy
-[hex downloads]: https://img.shields.io/hexpm/dt/goldy.svg
+[github-tags]: https://github.com/ORG/goldy/tags
+[github-tags-badge]: https://img.shields.io/github/tag/ORG/goldy.svg
+[github-downloads]: https://img.shields.io/github/downloads/ORG/goldy/total.svg

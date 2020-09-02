@@ -1,5 +1,5 @@
 {application, 'goldy',
- [{description, "A gopher client, shell, and server implementation in LFE."},
+ [{description, "A gopher client, shell, and server implementation in LFE"},
   {vsn, git},
   {registered, []},
   {mod, {'goldy-app', []}},
