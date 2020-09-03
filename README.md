@@ -1,6 +1,9 @@
 # goldy
 
-[![Build Status][gh-actions-badge]][gh-actions] [![LFE Versions][lfe-badge]][lfe] [![Erlang Versions][erlang-badge]][versions] [![Tags][github-tags-badge]][github-tags]
+[![Build Status][gh-actions-badge]][gh-actions]
+[![LFE Versions][lfe-badge]][lfe]
+[![Erlang Versions][erlang-badge]][versions]
+[![Tags][github-tags-badge]][github-tags]
 
 [![Project Logo][logo]][logo-large]
 
@@ -70,7 +73,7 @@ Copyright © 2020, Duncan McGreggor <oubiwann@gmail.com>.
 [lfe]: https://github.com/rvirding/lfe
 [lfe-badge]: https://img.shields.io/badge/lfe-1.3.0-blue.svg
 [erlang-badge]: https://img.shields.io/badge/erlang-19%20to%2023-blue.svg
-[version]: https://github.com/oubiwann/goldy/blob/master/.travis.yml
+[versions]: https://github.com/oubiwann/goldy/blob/master/.github/workflows/cicd.yml#L17
 [github-tags]: https://github.com/oubiwann/goldy/tags
-[github-tags-badge]: https://img.shields.io/github/tag/ORG/goldy.svg
-[github-downloads]: https://img.shields.io/github/downloads/ORG/goldy/total.svg
+[github-tags-badge]: https://img.shields.io/github/tag/oubiwann/goldy.svg
+[github-downloads]: https://img.shields.io/github/downloads/oubiwann/goldy/total.svg
